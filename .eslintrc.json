@@ -1,0 +1,34 @@
+{
+    "extends": "airbnb-base",
+    "parser": "babel-eslint",
+    "rules": {
+        "no-console": "off",
+        "indent": "off",
+        "class-methods-use-this": "off",
+        "no-useless-constructor": "off",
+        "no-tabs": "off",
+        "comma-dangle": [
+            0
+        ],
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": true
+            }
+        ],
+        "no-underscore-dangle": [
+            0
+        ],
+        "no-unused-vars": "off",
+        "no-empty-function": "off",
+        "max-len": "off"
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "experimentalDecorators": true,
+        "ecmaFeatures": {
+            
+        }
+    }
+}
